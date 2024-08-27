@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG" />
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG" />
+  <meta property="og:url" content="URL OF THE WEBSITE" />
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>ASR-enhanced Multimodal Representation Learning for Cross-Domain Product Retrieval</title>
+  <!--   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico"> -->
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+  <script defer src="https://friconix.com/cdn/friconix.js"> </script>
+</head>
+
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Video to Music Moment Retrieval</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://xxayt.github.io" target="_blank">Zijie Xin</a><sup>1*</sup>,</span>
+              <span class="author-block">
+                <a href="" target="_blank">Minquan Wang</a><sup>2</sup>,</span>
+              <span class="author-block">
+                <a href="" target="_blank">Ye Ma</a><sup>2</sup>,</span>
+              <span class="author-block">
+                <a href="" target="_blank">Bo Wang</a><sup>2</sup>,</span>
+              <span class="author-block">
+                <a href="" target="_blank">Quan Chen</a><sup>2</sup>,</span>
+              <span class="author-block">
+                <a href="" target="_blank">Peng Jiang</a><sup>2</sup>,</span>
+              <span class="author-block">
+                <a href="http://lixirong.net" target="_blank">Xirong Li</a><sup>1</sup>
+              </span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1</sup>Renmin University of China</span><span>&nbsp &nbsp &nbsp &nbsp
+                <sup>2</sup>Kuaishou Technology</span><br><span class="eql-cntrb"><small><br><sup>*</sup>Work done
+                  during internship at Kuaishou Technology</small></span></span>
+            </div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- Arxiv PDF link -->
+                <span class="link-block">
+                  <a href="static/pdfs/arxiv_vmmr.pdf" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+
+                <!-- Colab notbook link
+                <span class="link-block">
+                  <a href="https://colab.research.google.com/drive/1bgpTSCx0ujRkopsfHfBLi6q69QZC2deY?usp=sharing"
+                    target="_blank" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fi-xnsuxl-google-colab"></i>
+                    </span>
+                    <span>Notebook</span>
+                  </a>
+                </span> -->
+
+                <!-- Github link -->
+                <span class="link-block">
+                  <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/xxx" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Teaser video-->
+  <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <img src="static/images/framework.png" alt="MY ALT TEXT" />
+        <h2>
+          Conceptual diagram of the proposed <code>AMPere</code> method for cross-domain multimodal product
+          representation learning. Our network consists of three branches, each responding for a specific domain. For
+          each trainable layer in the network, its parameters are shared across the three branches. An LLM-based ASR
+          text summarizer is deployed to extract <span style="color:blue;">product-specific information</span> from the
+          raw text overwhelmed by <span style="color:red;">abundant uninformative words</span> transcribed from casual
+          chatting of network anchors or live streamers. Except for the summarizer, the network is trained end-to-end.
+        </h2>
+      </div>
+    </div>
+  </section>
+  <!-- End teaser video -->
+
+  <!-- Paper abstract -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              Adding proper background music helps complete a short video to be shared. Towards automating the task,
+              previous research focuses on video-to-music retrieval (VMR), aiming to find amidst a collection of music
+              the one best matching the content of a given video. Since music tracks are typically much longer than
+              short videos, meaning the returned music has to be cut to a shorter moment, there is a clear gap between
+              the practical need and VMR. In order to bridge the gap, we propose in this paper video to music moment
+              retrieval (VMMR) as a new task. To tackle the new task, we build a comprehensive dataset Ad-Moment which
+              contains 50K short videos annotated with music moments and develop a two-stage approach. In particular,
+              given a test video, the most similar music is retrieved from a given collection. Then, a Transformer based
+              music moment localization is performed. We term this approach <u>Re</u>trieval <u>a</u>nd
+              <u>L</u>ocalization (<b>ReaL</b>). Extensive experiments on real-world datasets verify the effectiveness
+              of the proposed method for VMMR.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End paper abstract -->
+
+  <!-- dataset-->
+  <section class="hero teaser">
+    <div class="container">
+      <div class="hero-body">
+        <h2 class="title has-text-centered is-3">Dataset: Ad-Moment</h2>
+        <!-- <img src="static/images/data collection pipeline.pdf" /> -->
+        <embed src="static/images/data collection pipeline.pdf" width="800" height="600" type='application/pdf'>
+        <h2 class="subtitle has-text-centered">
+          Conceptual diagram of the weakly supervised multi-modal timestamp collection pipeline for the proposed
+          Ad–Moment dataset.
+        </h2>
+        <div class="image-container">
+          <img src="static/images/wordcloud.png" />
+          <img src="static/images/wordcloud.png" />
+          <img src="static/images/music_used_times_barh.png" />
+          <img src="static/images/center_width_scatter_portion_alldata_green.png" />
+        </div>
+        <h2 class="subtitle has-text-centered">
+          Data analysis and statistics on Ad–Moment.
+        </h2>
+        <img src="static/images/dataset.png" />
+        <h2 class="subtitle has-text-centered">
+          Overview of the Ad–Moment dataset.
+        </h2>
+      </div>
+    </div>
+  </section>
+  <!-- End dataset -->
+
+
+  <!-- method-->
+  <section class="hero teaser">
+    <div class="container">
+      <div class="hero-body">
+        <h2 class="title has-text-centered is-3">Framework</h2>
+        <img src="static/images/stage1_new.png" />
+        <h2 class="subtitle has-text-centered">
+          llustration of the retrieval model in stage I.
+        </h2>
+        <img src="static/images/stage2_new.png" />
+        <h2 class="subtitle has-text-centered">
+          Illustration of the proposed video-music moment localization model <em>Music-DETR</em>, which is composed of
+          music/video temporal modeling, cross-modal fusion encoder, and DETR-based decoder. The decoder, following the
+          DETR, performs the moment localization task. We use video embeddings to initialize the moment queries,
+          enabling the prediction of the span range, moment classification, and moment embedding. Additionally, we
+          optimize the alignment between the video and the moment embeddings with audio auxiliary to further constrain
+          the training process and improve performance.
+        </h2>
+      </div>
+    </div>
+  </section>
+  <!-- End method -->
+
+
+
+
+
+
+
+  <section class="section hero is-small">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column is-full">
+          <div class="content">
+            <h2 class="title is-3">Comparison with Other Methods</h2>
+            <div class="level-set has-text-justified">
+              <p>
+                <!-- With the LLM-summarized ASR text, <code>AMPere</code> improves the state-of-the-art visual based
+                solution by a large margin. -->
+              </p>
+              <img src="static/images/MML_result.png" />
+              <h2 class="subtitle has-text-centered">
+                Music Moment Localization (MML) results.
+              </h2>
+              <img src="static/images/VMMR_result.png" />
+              <h2 class="subtitle has-text-centered">
+                VMMR results.
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Image carousel -->
+  <section class="hero is-small is-light">
+    <div class="hero-body">
+      <div class="container">
+        <h2 class="title is-3">
+          Qualitative results of ASR text summarization
+        </h2>
+        <div id="results-carousel" class="carousel results-carousel">
+          <div class="item">
+            <!-- Your image here -->
+            <img src="static/images/photo110568294389 show.png" alt="MY ALT TEXT" />
+            <h2 class="subtitle has-text-centered">
+              Video Tag: <em>Parenting</em>
+            </h2>
+          </div>
+          <div class="item">
+            <!-- Your image here -->
+            <img src="static/images/photo112399878654 show.png" alt="MY ALT TEXT" />
+            <h2 class="subtitle has-text-centered">
+              Video Tag: <em>Fashion</em>
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End image carousel -->
+
+  <footer class="footer">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+
+            <p>
+              This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template"
+                target="_blank">Academic Project Page Template</a> which was adopted from the <a
+                href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+              You are free to borrow the of this website, we just ask that you link back to this page in the footer.
+              <br> This website is licensed under a <a rel="license"
+                href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+                Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Statcounter tracking code -->
+
+  <!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+  <!-- End of Statcounter Code -->
+
+</body>
+
+</html>
