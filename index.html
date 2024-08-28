@@ -191,14 +191,14 @@
       <div class="hero-body">
         <h2 class="title has-text-centered is-3">Dataset: Ad-Moment</h2>
         <div class="content has-text-centered">
-          <img src="static/images/data collection pipeline.png" width="500" height="600" />
+          <img src="static/images/data collection pipeline.png" width="600" height="600" />
         </div>
         <h2 class="subtitle has-text-centered">
           Conceptual diagram of the weakly supervised multi-modal timestamp collection pipeline.
         </h2>
 
         <div class="content has-text-centered">
-          <img src="static/images/dataset.png" width="500" height="600" />
+          <img src="static/images/dataset.png" width="700" height="700" />
         </div>
         <h2 class="subtitle has-text-centered">
           Overview of the Ad–Moment dataset.
@@ -211,29 +211,67 @@
 
   <!-- method-->
   <section class="hero teaser">
-    <div class="container">
-      <div class="hero-body">
-        <h2 class="title has-text-centered is-3">Framework</h2>
-        <div class="content has-text-centered">
-          <img src="static/images/stage1_new.png" width="400" height="500" />
-        </div>
-        <h2 class="subtitle has-text-centered">
-          llustration of the retrieval model in stage I.
-        </h2>
+    <div class="container is-max-desktop">
+      <h2 class="title has-text-centered is-3">Method</h2>
+      <div class="columns is-centered">
 
-        <div class="content has-text-centered">
-          <img src="static/images/stage2_new.png" width="300" height="600" />
+        <div class="column">
+          <h2 class="title is-4">Stage I: Video-to-Music Retrieval</h2>
+          <div class="content">
+            <p class="has-text-centered">
+              llustration of the retrieval model in stage I.
+            </p>
+            <img src="static/images/stage1_new.png" width="400" height="500" />
+          </div>
         </div>
-        <h2 class="subtitle has-text-centered">
-          Illustration of the proposed video-music moment localization model <em>Music-DETR</em>, which is composed of
-          music/video temporal modeling, cross-modal fusion encoder, and DETR-based decoder. The decoder, following the
-          DETR, performs the moment localization task. We use video embeddings to initialize the moment queries,
-          enabling the prediction of the span range, moment classification, and moment embedding. Additionally, we
-          optimize the alignment between the video and the moment embeddings with audio auxiliary to further constrain
-          the training process and improve performance.
-        </h2>
+
+        <div class="column">
+          <h2 class="title is-4">Stage II: Music Moment Localization</h2>
+          <div class="columns is-centered">
+            <div class="column content">
+              <p class="has-text-centered">
+                Illustration of the proposed video-music moment localization model <em>Music-DETR</em>, which is
+                composed of music/video temporal modeling, cross-modal fusion encoder, and DETR-based decoder. The
+                decoder, following the DETR, performs the moment localization task. We use video embeddings to
+                initialize the moment queries, enabling the prediction of the span range, moment classification, and
+                moment embedding. Additionally, we optimize the alignment between the video and the moment embeddings
+                with audio auxiliary to further constrain the training process and improve performance.
+              </p>
+              <img src="static/images/stage2_new.png" width="300" height="600" />
+            </div>
+
+          </div>
+        </div>
       </div>
-    </div>
+
+
+
+
+
+      <div class="container">
+        <div class="hero-body">
+          <h2 class="title has-text-centered is-3">Framework</h2>
+          <div class="content has-text-centered">
+            <img src="static/images/stage1_new.png" width="400" height="500" />
+          </div>
+          <h2 class="subtitle has-text-centered">
+            llustration of the retrieval model in stage I.
+          </h2>
+
+          <div class="content has-text-centered">
+            <img src="static/images/stage2_new.png" width="300" height="600" />
+          </div>
+          <h2 class="subtitle has-text-centered">
+            Illustration of the proposed video-music moment localization model <em>Music-DETR</em>, which is composed of
+            music/video temporal modeling, cross-modal fusion encoder, and DETR-based decoder. The decoder, following
+            the
+            DETR, performs the moment localization task. We use video embeddings to initialize the moment queries,
+            enabling the prediction of the span range, moment classification, and moment embedding. Additionally, we
+            optimize the alignment between the video and the moment embeddings with audio auxiliary to further constrain
+            the training process and improve performance.
+          </h2>
+        </div>
+      </div>
   </section>
   <!-- End method -->
 
