@@ -191,16 +191,6 @@
           Conceptual diagram of the weakly supervised multi-modal timestamp collection pipeline.
         </h2>
 
-        <!-- <div class="image-container has-text-centered">
-          <img src="static/images/wordcloud.png" width="400" height="300" />
-          <img src="static/images/wordcloud.png" width="400" height="300" />
-          <img src="static/images/music_used_times_barh.png" width="400" height="300" />
-          <img src="static/images/center_width_scatter_portion_alldata_green.png" width="400" height="300" />
-        </div>
-        <h2 class="subtitle has-text-centered">
-          Data analysis and statistics on Ad–Moment.
-        </h2> -->
-
         <div class="content has-text-centered">
           <img src="static/images/dataset.png" width="600" height="400" />
         </div>
@@ -244,21 +234,53 @@
   <!-- Quantitative Experiment -->
   <section class="section">
     <div class="container is-max-desktop">
+      <h2 class="title is-3">Comparison with Other Methods</h2>
       <div class="columns is-centered">
-        <h2 class="title is-3">Comparison with Other Methods</h2>
-        <div class="column content is-centered">
-          <p>
-            Music Moment Localization (MML) results.
-          </p>
-          <img src="static/images/MML_result.png" width="1000" height="600" />
+
+        <div class="column">
+          <div class="content">
+            <!-- <h2 class="title is-3">Visual Effects</h2> -->
+            <p>
+              Music Moment Localization (MML) results.
+            </p>
+            <img src="static/images/MML_result.png" height="100%" />
+            <!-- <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/dollyzoom-stacked.mp4" type="video/mp4">
+            </video> -->
+          </div>
         </div>
-        <div class="column content is-centered" style="clear: both;">
-          <p>
-            VMMR results.
-          </p>
-          <img src="static/images/VMMR_result.png" width="1000" height="610" />
+
+        <div class="column">
+          <!-- <h2 class="title is-3">Matting</h2> -->
+          <div class="columns is-centered">
+            <div class="column content">
+              <p>
+                VMMR results.
+              </p>
+              <img src="static/images/VMMR_result.png" height="100%" />
+              <!-- <video id="matting-video" controls playsinline height="100%">
+                <source src="./static/videos/matting.mp4" type="video/mp4">
+              </video> -->
+            </div>
+
+          </div>
         </div>
       </div>
+
+      <h2 class="title is-3">Comparison with Other Methods</h2>
+      <div class="column content is-centered">
+        <p>
+          Music Moment Localization (MML) results.
+        </p>
+        <img src="static/images/MML_result.png" width="1000" height="600" />
+      </div>
+      <div class="column content is-centered" style="clear: both;">
+        <p>
+          VMMR results.
+        </p>
+        <img src="static/images/VMMR_result.png" width="1000" height="610" />
+      </div>
+    </div>
     </div>
   </section>
 
