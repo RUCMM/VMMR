@@ -187,11 +187,15 @@
     <div class="container">
       <div class="hero-body">
         <h2 class="title has-text-centered is-3">Dataset: <span style="color:orange">Ad-Moment</span></h2>
+        <p>
+          We gather and clean approximately 50k short advertising videos with their corresponding music data, and
+          propose an automated weakly-supervised pipeline for generating music moment timestamp annotations.
+        </p>
         <div class="content has-text-centered">
           <img src="static/images/data collection pipeline.png" width="600" height="600" />
         </div>
         <h2 class="subtitle has-text-centered">
-          Conceptual diagram of the weakly supervised multi-modal timestamp collection pipeline.
+          Conceptual diagram of the weakly-supervised multi-modal timestamp collection pipeline.
         </h2>
 
         <div class="content has-text-centered">
@@ -214,7 +218,7 @@
       <div class="columns is-centered">
 
         <div class="column">
-          <h2 class="title is-4">Stage I: Video-to-Music Retrieval</h2>
+          <h2 class="title is-4 has-text-centered">Stage I: Video-to-Music Retrieval</h2>
           <div class="content">
             <p class="has-text-centered">
               llustration of the retrieval model in stage I.
@@ -226,7 +230,7 @@
         </div>
 
         <div class="column">
-          <h2 class="title is-4">Stage II: Music Moment Localization</h2>
+          <h2 class="title is-4 has-text-centered">Stage II: Music Moment Localization</h2>
           <div class="columns is-centered">
             <div class="column content">
               <p class="has-text-left">
@@ -315,18 +319,18 @@
                 <p class="has-text-centered">
                   Retrieved Music
                 </p>
+                <code class="has-text-centered">Ground truth music</code>
                 <audio id="matting-audio" controls>
                   <source src="static/music/112399878654_corresponding_complete_music_有没有动心.mp3" type="audio/mpeg">
                 </audio>
-                <code>GT</code><br>
+                <code class="has-text-centered">Candidate music rank1</code>
                 <audio id="matting-audio" controls>
                   <source src="static/music/112399878654_corresponding_complete_music_有没有动心.mp3" type="audio/mpeg">
                 </audio>
-                <code>candidate music rank1</code><br>
+                <code class="has-text-centered">Candidate music rank2</code>
                 <audio id="matting-audio" controls>
                   <source src="static/music/112399878654_corresponding_complete_music_有没有动心.mp3" type="audio/mpeg">
                 </audio>
-                <code>candidate music rank2</code><br>
               </div>
             </div>
           </div>
@@ -339,18 +343,18 @@
                 <p class="has-text-centered">
                   Localization Moment
                 </p>
+                <code class="has-text-centered">Ground truth moment</code>
                 <audio id="matting-audio" controls>
                   <source src="static/music/112399878654_corresponding_complete_music_有没有动心.mp3" type="audio/mpeg">
                 </audio>
-                <code>GT</code><br>
+                <code class="has-text-centered">Candidate music rank1</code>
                 <audio id="matting-audio" controls>
                   <source src="static/music/112399878654_corresponding_complete_music_有没有动心.mp3" type="audio/mpeg">
                 </audio>
-                <code>candidate moment rank1</code><br>
+                <code class="has-text-centered">Candidate music rank1</code>
                 <audio id="matting-audio" controls>
                   <source src="static/music/112399878654_corresponding_complete_music_有没有动心.mp3" type="audio/mpeg">
                 </audio>
-                <code>candidate moment rank2</code><br>
               </div>
             </div>
           </div>
