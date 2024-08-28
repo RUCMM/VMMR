@@ -174,7 +174,8 @@
               short videos, meaning the returned music has to be cut to a shorter moment, there is a clear gap between
               the practical need and VMR. In order to bridge the gap, we propose in this paper video to music moment
               retrieval (<span style="color:green">VMMR</span>) as a new task. To tackle the new task, we build a
-              comprehensive dataset Ad-Moment which contains 50K short videos annotated with music moments and develop a
+              comprehensive dataset <span style="color:orange">Ad-Moment</span> which contains 50K short videos
+              annotated with music moments and develop a
               two-stage approach. In particular, given a test video, the most similar music is retrieved from a given
               collection. Then, a Transformer based music moment localization is performed. We term this approach
               <u>Re</u>trieval <u>a</u>nd <u>L</u>ocalization (<b>ReaL</b>). Extensive experiments on real-world
@@ -191,7 +192,7 @@
   <section class="hero teaser">
     <div class="container">
       <div class="hero-body">
-        <h2 class="title has-text-centered is-3">Dataset: Ad-Moment</h2>
+        <h2 class="title has-text-centered is-3">Dataset: <span style="color:orange">Ad-Moment</span></h2>
         <div class="content has-text-centered">
           <img src="static/images/data collection pipeline.png" width="600" height="600" />
         </div>
@@ -203,7 +204,7 @@
           <img src="static/images/dataset.png" width="700" height="700" />
         </div>
         <h2 class="subtitle has-text-centered">
-          Overview of the Ad–Moment dataset.
+          Overview of the <span style="color:orange">Ad-Moment</span> dataset.
         </h2>
       </div>
     </div>
@@ -220,10 +221,12 @@
         <div class="column">
           <h2 class="title is-4">Stage I: Video-to-Music Retrieval</h2>
           <div class="content">
-            <p class="has-text-centered">
+            <p class="has-text-left">
               llustration of the retrieval model in stage I.
             </p>
-            <img src="static/images/stage1_new.png" width="400" height="500" />
+            <div class="has-text-centered">
+              <img src="static/images/stage1_new.png" width="350" height="500" />
+            </div>
           </div>
         </div>
 
@@ -239,7 +242,9 @@
                 moment embedding. Additionally, we optimize the alignment between the video and the moment embeddings
                 with audio auxiliary to further constrain the training process and improve performance.
               </p>
-              <img src="static/images/stage2_new.png" width="600" height="700" />
+              <div class="has-text-centered">
+                <img src="static/images/stage2_new.png" width="700" height="700" />
+              </div>
             </div>
 
           </div>
@@ -261,7 +266,7 @@
                 <p class="has-text-centered">
                   Music Moment Localization (MML) results.
                 </p>
-                <img src="static/images/MML_result.png" height="95%" />
+                <img src="static/images/MML_result.png" width="95%" />
               </div>
             </div>
 
@@ -271,7 +276,7 @@
                   <p class="has-text-centered">
                     <span style="color:green">VMMR</span> results.
                   </p>
-                  <img src="static/images/VMMR_result.png" height="100%" />
+                  <img src="static/images/VMMR_result.png" width="100%" />
                 </div>
 
               </div>
@@ -292,13 +297,17 @@
         </h2>
         <div id="results-carousel" class="carousel results-carousel">
           <div class="item">
-            <img src="static/images/photo110568294389 show.png" alt="MY ALT TEXT" width="800" height="900" />
+            <div class="has-text-centered">
+              <img src="static/images/photo110568294389 show.png" alt="MY ALT TEXT" width="800" height="900" />
+            </div>
             <h2 class="subtitle has-text-centered">
               Video Tag: <em>Parenting</em>
             </h2>
           </div>
           <div class="item">
-            <img src="static/images/photo112399878654 show.png" alt="MY ALT TEXT" width="800" height="900" />
+            <div class="has-text-centered">
+              <img src="static/images/photo112399878654 show.png" alt="MY ALT TEXT" width="800" height="900" />
+            </div>
             <h2 class="subtitle has-text-centered">
               Video Tag: <em>Fashion</em>
             </h2>
