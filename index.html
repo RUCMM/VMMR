@@ -208,7 +208,7 @@
 
 
   <!-- method-->
-  <section class="hero teaser">
+  <section class="hero teaser is-light">
     <div class="container is-max-desktop">
       <h2 class="title has-text-centered is-3">Method: <span style="color:red">ReaL</span> Framework</h2>
       <div class="columns is-centered">
@@ -241,43 +241,44 @@
                 <img src="static/images/stage2_new.png" width="800" height="700" />
               </div>
             </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- End method -->
+
+
+
+
+  <!-- Quantitative Experiment -->
+  <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3">Comparison with Other Methods</h2>
+      <div class="columns is-centered">
+
+        <div class="column">
+          <div class="content">
+            <p class="has-text-centered">
+              Music Moment Localization (MML) results
+            </p>
+            <img src="static/images/MML_result.png" width="97%" />
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="columns is-centered">
+            <div class="column content">
+              <p class="has-text-centered">
+                Video-to-Music Moment Retrieval (<span style="color:green">VMMR</span>) results
+              </p>
+              <img src="static/images/VMMR_result.png" width="100%" />
+            </div>
 
           </div>
         </div>
       </div>
-      <!-- End method -->
-
-
-
-
-      <!-- Quantitative Experiment -->
-      <section class="section">
-        <div class="container is-max-desktop">
-          <h2 class="title is-3">Comparison with Other Methods</h2>
-          <div class="columns is-centered">
-
-            <div class="column">
-              <div class="content">
-                <p class="has-text-centered">
-                  Music Moment Localization (MML) results
-                </p>
-                <img src="static/images/MML_result.png" width="97%" />
-              </div>
-            </div>
-
-            <div class="column">
-              <div class="columns is-centered">
-                <div class="column content">
-                  <p class="has-text-centered">
-                    Video-to-Music Moment Retrieval (<span style="color:green">VMMR</span>) results
-                  </p>
-                  <img src="static/images/VMMR_result.png" width="100%" />
-                </div>
-
-              </div>
-            </div>
-          </div>
-        </div>
     </div>
   </section>
 
@@ -286,10 +287,65 @@
   <!-- Image carousel -->
   <section class="hero is-small is-light">
     <div class="hero-body">
-      <div class="container">
-        <h2 class="title is-3">
-          Qualitative results of Music Moment Localization (MML)
-        </h2>
+      <div class="container is-max-desktop">
+
+        <h2 class="title has-text-centered is-3">Data Display</h2>
+
+
+
+
+
+        <!-- Video. -->
+        <div class="column">
+          <div class="content">
+            <p class="has-text-centered">
+              Input Video
+            </p>
+            <video id="dollyzoom" autoplay controls muted loop playsinline height="60%">
+              <source src="static/videos/112399878654.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <!--/ Video. -->
+
+        <!-- Music. -->
+        <div class="column">
+          <div class="columns is-centered">
+            <div class="column content">
+              <p class="has-text-centered">
+                Music
+              </p>
+              <audio id="matting-audio" controls>
+                <source src="static/music/112399878654_corresponding_complete_music_有没有动心.mp3" type="audio/mpeg">
+              </audio>
+            </div>
+          </div>
+        </div>
+        <!--/ Music. -->
+
+        <!-- Moment. -->
+        <div class="column">
+          <div class="columns is-centered">
+            <div class="column content">
+              <p class="has-text-centered">
+                Moment
+              </p>
+              <audio id="matting-audio" controls>
+                <source src="static/music/112399878654_corresponding_complete_music_有没有动心.mp3" type="audio/mpeg">
+              </audio>
+            </div>
+          </div>
+        </div>
+        <!--/ Moment. -->
+
+
+
+
+
+
+
+
+        <h2 class="title is-4">Qualitative results of Music Moment Localization (MML)</h2>
         <div id="results-carousel" class="carousel results-carousel">
           <div class="item">
             <div class="has-text-centered">
@@ -308,17 +364,19 @@
             </h2>
           </div>
         </div>
+
       </div>
     </div>
   </section>
   <!-- End image carousel -->
+
+
 
   <footer class="footer">
     <div class="container">
       <div class="columns is-centered">
         <div class="column is-8">
           <div class="content">
-
             <p>
               This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template"
                 target="_blank">Academic Project Page Template</a> which was adopted from the <a
