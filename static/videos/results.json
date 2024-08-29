@@ -1,0 +1,134 @@
+{
+    "112399878654": {
+        "video_id": "112399878654",
+        "music_id": "4+5xmutxb8zvwj2qq",
+        "gt_st": 47.002,
+        "gt_ed": 59.799,
+        "m_duration": 156.456,
+        "predict_list": [
+            {
+                "music_id": "4+5xq5tjn434ss7d2",
+                "pred_st": 0.099,
+                "pred_ed": 12.7,
+                "music_sim": 0.867129385471344,
+                "moment_p": 0.122
+            },
+            {
+                "music_id": "4+5xn824j353vza9i",
+                "pred_st": 0.076,
+                "pred_ed": 12.649,
+                "music_sim": 0.8550003170967102,
+                "moment_p": 0.128
+            },
+            {
+                "music_id": "4+5xu2n434j5wyda2",
+                "pred_st": 0.074,
+                "pred_ed": 12.646,
+                "music_sim": 0.8539521098136902,
+                "moment_p": 0.129
+            },
+            {
+                "music_id": "4+5xevgxrievi892i",
+                "pred_st": 0.166,
+                "pred_ed": 30.496,
+                "music_sim": 0.7797039747238159,
+                "moment_p": 0.07
+            },
+            {
+                "music_id": "7+5x9p5d3jqe4p7n9",
+                "pred_st": 0.236,
+                "pred_ed": 30.744,
+                "music_sim": 0.7604693174362183,
+                "moment_p": 0.065
+            }
+        ]
+    },
+    "110568294389": {
+        "video_id": "110568294389",
+        "music_id": "4+5xmskqjaktb7vks",
+        "gt_st": 10.071,
+        "gt_ed": 40.388,
+        "m_duration": 67.573,
+        "predict_list": [
+            {
+                "music_id": "4+5xcgif96ptbysjk",
+                "pred_st": 60.472,
+                "pred_ed": 90.871,
+                "music_sim": 0.8419787287712097,
+                "moment_p": 0.139
+            },
+            {
+                "music_id": "4+5xnxxwz98pnk8mq",
+                "pred_st": 3.816,
+                "pred_ed": 33.966,
+                "music_sim": 0.8401172161102295,
+                "moment_p": 0.066
+            },
+            {
+                "music_id": "4+5x4ip566zgkfqt6",
+                "pred_st": 41.439,
+                "pred_ed": 72.374,
+                "music_sim": 0.8271305561065674,
+                "moment_p": 0.134
+            },
+            {
+                "music_id": "4+5xg3d8g59p94un9",
+                "pred_st": 54.711,
+                "pred_ed": 85.108,
+                "music_sim": 0.8225828409194946,
+                "moment_p": 0.138
+            },
+            {
+                "music_id": "4+5xxigis7ezvs5qu",
+                "pred_st": 45.682,
+                "pred_ed": 76.388,
+                "music_sim": 0.8216723203659058,
+                "moment_p": 0.137
+            }
+        ]
+    },
+    "98342395564": {
+        "video_id": "98342395564",
+        "music_id": "4+5xatvpn4zqcby5e",
+        "gt_st": 0.0,
+        "gt_ed": 15.601,
+        "m_duration": 127.338,
+        "predict_list": [
+            {
+                "music_id": "4+5xvj9zgxkayrk56",
+                "pred_st": 0.021,
+                "pred_ed": 15.292,
+                "music_sim": 0.9130682349205016,
+                "moment_p": 0.119
+            },
+            {
+                "music_id": "4+5xstkhpkytds6qs",
+                "pred_st": 0.072,
+                "pred_ed": 15.538,
+                "music_sim": 0.9111565351486206,
+                "moment_p": 0.105
+            },
+            {
+                "music_id": "4+5xsh8n2gx7adh8a",
+                "pred_st": 0.063,
+                "pred_ed": 15.5,
+                "music_sim": 0.9061151146888732,
+                "moment_p": 0.107
+            },
+            {
+                "music_id": "4+5xe8d5kqg7wucsw",
+                "pred_st": 0.033,
+                "pred_ed": 15.31,
+                "music_sim": 0.9046207666397096,
+                "moment_p": 0.125
+            },
+            {
+                "music_id": "4+5xd6f83m45sf28u",
+                "pred_st": 0.021,
+                "pred_ed": 15.297,
+                "music_sim": 0.8928785920143127,
+                "moment_p": 0.118
+            }
+        ]
+    }
+}
